@@ -25,28 +25,31 @@ Built with **Flask**, **PyTorch**, and **Hugging Face Transformers**, this proje
 
 clinical_qa_system_project/
 │
-├── app.py # Flask backend
-├── requirements.txt # Dependencies list
+├── app.py                            # Main Flask application file
+├── requirements.txt                  # Python dependencies
+├── BCQA_Datasets.json                # Dataset used for fine-tuning QA model
+├── text.txt                          # Sample clinical report & questions
 │
-├── website/ # Frontend web pages and assets
-│ ├── Home.html
-│ ├── qa.html
-│ ├── index.html
-│ ├── sample.html
-│ ├── tiles.html
-│ └── images, backgrounds, CSS
-│
-├── BCQA_Datasets.json # Biomedical QA dataset
-├── text.txt # Sample clinical report for testing
+├── website/                          # Frontend website templates and assets
+│   ├── Home.html                     # Home page
+│   ├── qa.html                       # Question Answering interface
+│   ├── sample.html                   # Healthcare Blog page
+│   ├── tiles.html                    # Government Schemes & Resources page
+│   ├── index.html                    # Contact & Feedback page
+│   ├── qa_background.png             # QA page background image
+│   ├── website_home_bg.webp          # Home page background image
+│   ├── other_images/...              # Supporting assets (icons, banners, etc.)
 │
 └── 📂 Implementation + Model + venv (on Drive)
-🔗 Access on Google Drive
-
-├── implementation/
-│ ├── Implementation Documentation.docx
-│ └── Project Demonstration Video
-├── model/
-└── venv/
+🔗 [Access on Google Drive](https://drive.google.com/drive/folders/1IKg4J0JHpu_1mmoXVefdkJNu2t4fTM9n?usp=sharing)
+|
+├── model/                            # (Pubmed-BERT QA) Pre-trained Transformer QA model (stored on Drive)
+│
+├── venv/                             # Virtual environment (stored on Drive)
+│
+└── implementation/                   # Documentation and demonstration
+    ├── Implementation Documentation.docx   # Implementation details & results
+    └── Implementation Video.mp4             # Project demonstration video
 
 ---
 
