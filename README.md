@@ -112,6 +112,7 @@ Download from Drive and place them in your project root:
 Final structure:
 
 clinical_qa_system_project/
+
 │
 ├── app.py
 ├── model/
