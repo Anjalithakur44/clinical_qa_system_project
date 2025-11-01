@@ -113,11 +113,11 @@ Final structure:
 
 clinical_qa_system_project/
 
-│
-├── app.py
-├── model/
-├── implementation/
-└── website/
+
+│ ├── app.py
+│ ├── model/
+│ ├── implementation/
+│ └── website/
 
 ### 5️⃣ Run the Flask App
 ```
